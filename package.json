@@ -1,6 +1,6 @@
 {
   "name": "svg-to-url",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple tool to convert svg file to data url",
   "repository": "zillding/svg-to-url",
   "bin": {
