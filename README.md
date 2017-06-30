@@ -1,6 +1,6 @@
 # svg-to-url
 
-[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![Build Status](https://travis-ci.org/zillding/svg-to-url.svg?branch=master)](https://travis-ci.org/zillding/svg-to-url) [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 A node utility to convert svg to data url
 
