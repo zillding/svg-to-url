@@ -27,3 +27,14 @@ svgToUrl('path/to/file.svg')
     console.error(error);
   })
 ```
+
+If only the svg string processor is needed, there is another api exposed.
+
+```js
+const { stringToUrl } = require('svg-to-url');
+
+const svgoConfig = {/* custom svgo config */};
+const getUrlFromSvgString = stringToUrl(svgoConfig);
+
+const resultUrl = getUrlFromSvgString('<svg>...</svg>');
+```
