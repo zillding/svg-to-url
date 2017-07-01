@@ -32,7 +32,8 @@
     "chalk": "^2.0.1",
     "clipboardy": "^1.1.4",
     "commander": "^2.10.0",
-    "svgo": "^0.7.2"
+    "svgo": "^0.7.2",
+    "update-notifier": "^2.2.0"
   },
   "devDependencies": {
     "husky": "^0.14.1",
