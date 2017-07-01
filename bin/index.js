@@ -3,14 +3,9 @@
 const fs = require("fs");
 const program = require("commander");
 const chalk = require("chalk");
-const ncp = require("copy-paste");
+const clipboardy = require("clipboardy");
 
 const svgToUrl = require("../lib/index");
-
-const copy = data =>
-  new Promise(resolve => {
-    ncp.copy(data, resolve);
-  });
 
 program
   .arguments("<file>")
@@ -20,7 +15,7 @@ program
         console.log(data);
         return data;
       })
-      .then(copy)
+      .then(clipboardy.write)
       .then(() => {
         console.log(chalk.green("Copied to clipboard!"));
       })
