@@ -11,6 +11,7 @@
     "node": ">=8"
   },
   "scripts": {
+    "prettier": "prettier --write '{bin,lib}/**/*.js'",
     "precommit": "lint-staged",
     "test": "jest",
     "deploy": "np"
