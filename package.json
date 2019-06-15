@@ -13,7 +13,7 @@
   "scripts": {
     "prettier": "prettier --write '{bin,lib}/**/*.js'",
     "test": "jest",
-    "deploy": "np"
+    "release": "np"
   },
   "husky": {
     "hooks": {
