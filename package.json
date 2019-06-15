@@ -12,9 +12,13 @@
   },
   "scripts": {
     "prettier": "prettier --write '{bin,lib}/**/*.js'",
-    "precommit": "lint-staged",
     "test": "jest",
     "deploy": "np"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "lint-staged": {
     "*.js": [
@@ -37,9 +41,9 @@
     "update-notifier": "^2.2.0"
   },
   "devDependencies": {
-    "husky": "^0.14.1",
+    "husky": "^2.4.1",
     "jest": "^24.8.0",
-    "lint-staged": "^4.0.0",
+    "lint-staged": "^8.2.1",
     "np": "^5.0.3",
     "prettier": "^1.18.2"
   }
