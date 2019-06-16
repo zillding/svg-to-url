@@ -1,6 +1,6 @@
 # svg-to-url
 
-[![npm](https://img.shields.io/npm/v/svg-to-url.svg)]() [![Build Status](https://travis-ci.org/zillding/svg-to-url.svg?branch=master)](https://travis-ci.org/zillding/svg-to-url) [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![npm](https://img.shields.io/npm/v/svg-to-url.svg)]() [![Build Status](https://travis-ci.org/zillding/svg-to-url.svg?branch=master)](https://travis-ci.org/zillding/svg-to-url) [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![Greenkeeper badge](https://badges.greenkeeper.io/zillding/svg-to-url.svg)](https://greenkeeper.io/)
 
 A node utility to convert svg to svgo optimized data url
 
