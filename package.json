@@ -43,7 +43,7 @@
   "devDependencies": {
     "husky": "^2.4.1",
     "jest": "^24.8.0",
-    "lint-staged": "^8.2.1",
+    "lint-staged": "^9.0.0",
     "np": "^5.0.3",
     "prettier": "^1.18.2"
   }
