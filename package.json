@@ -34,7 +34,7 @@
   "author": "Zill Ding",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^2.0.1",
+    "chalk": "^3.0.0",
     "clipboardy": "^2.1.0",
     "commander": "^4.0.0",
     "svgo": "^1.2.2",
