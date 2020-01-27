@@ -38,7 +38,7 @@
     "clipboardy": "^2.1.0",
     "commander": "^4.0.0",
     "svgo": "^1.2.2",
-    "update-notifier": "^3.0.0"
+    "update-notifier": "^4.0.0"
   },
   "devDependencies": {
     "husky": "^4.0.2",
