@@ -1,15 +1,10 @@
 #!/usr/bin/env node
 
-const updateNotifier = require("update-notifier");
 const program = require("commander");
 const chalk = require("chalk");
 const clipboardy = require("clipboardy");
 
-const pkg = require("../package.json");
-
 const svgToUrl = require("../lib/index");
-
-updateNotifier({ pkg }).notify();
 
 program
   .arguments("<file>")
