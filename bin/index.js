@@ -1,11 +1,12 @@
 #!/usr/bin/env node
 
-import program from "commander";
+import { Command } from "commander";
 import chalk from "chalk";
 import clipboardy from "clipboardy";
 
 import svgToUrl from "../lib/index.js";
 
+const program = new Command();
 program
   .arguments("<file>")
   .action((filePath) => {
