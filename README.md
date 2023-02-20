@@ -1,7 +1,6 @@
 # svg-to-url
 
 [![npm](https://img.shields.io/npm/v/svg-to-url.svg)]()
-[![Build Status](https://travis-ci.com/zillding/svg-to-url.svg?branch=master)](https://travis-ci.com/zillding/svg-to-url) 
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier) 
 
 
