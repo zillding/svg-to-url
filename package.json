@@ -3,16 +3,17 @@
   "version": "2.0.0",
   "description": "A simple tool to convert svg file to data url",
   "repository": "zillding/svg-to-url",
+  "type": "module",
   "bin": {
     "svg-to-url": "./bin/index.js"
   },
-  "main": "./lib/index.js",
+  "exports": "./lib/index.js",
   "engines": {
-    "node": ">=8"
+    "node": ">=14.16"
   },
   "scripts": {
     "prettier": "prettier --write '{bin,lib}/**/*.js'",
-    "test": "jest",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
     "release": "np"
   },
   "keywords": [

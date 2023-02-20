@@ -29,22 +29,17 @@ Copied to clipboard!
 ### Use as a node module
 
 ```js
-const svgToUrl = require("svg-to-url");
+import svgToUrl from "svg-to-url";
 
-svgToUrl("path/to/circle.svg")
-  .then(result => {
-    console.log(result);
-    // data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100' width='100'%3E%3Ccircle cx='50' cy='50' r='40' stroke='%23000' stroke-width='3' fill='red'/%3E%3C/svg%3E
-  })
-  .catch(error => {
-    console.error(error);
-  });
+const result = await svgToUrl("path/to/circle.svg");
+console.log(result);
+// data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100' width='100'%3E%3Ccircle cx='50' cy='50' r='40' stroke='%23000' stroke-width='3' fill='red'/%3E%3C/svg%3E
 ```
 
 If only the svg string processor is needed, there is another api exposed.
 
 ```js
-const { stringToUrl } = require("svg-to-url");
+import { stringToUrl } from "svg-to-url";
 
 // optional custom svgo config: https://github.com/svg/svgo
 const svgoConfig = {
