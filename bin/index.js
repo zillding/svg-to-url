@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
-const program = require("commander");
-const chalk = require("chalk");
-const clipboardy = require("clipboardy");
+import program from "commander";
+import chalk from "chalk";
+import clipboardy from "clipboardy";
 
-const svgToUrl = require("../lib/index");
+import svgToUrl from "../lib/index.js";
 
 program
   .arguments("<file>")
