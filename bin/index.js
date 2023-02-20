@@ -13,9 +13,9 @@ updateNotifier({ pkg }).notify();
 
 program
   .arguments("<file>")
-  .action(filePath => {
+  .action((filePath) => {
     svgToUrl(filePath)
-      .then(data => {
+      .then((data) => {
         console.log(data);
         return data;
       })
@@ -23,7 +23,7 @@ program
       .then(() => {
         console.log(chalk.green("Copied to clipboard!"));
       })
-      .catch(error => {
+      .catch((error) => {
         console.error(chalk.red(error));
       });
   })
