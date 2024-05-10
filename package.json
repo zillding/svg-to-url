@@ -19,6 +19,12 @@
     "test": "NODE_OPTIONS=--experimental-vm-modules jest",
     "release": "np"
   },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "cli.js",
+    "string-to-url.js"
+  ],
   "keywords": [
     "svg",
     "data",
