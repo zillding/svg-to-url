@@ -7,7 +7,10 @@
   "bin": {
     "svg-to-url": "./cli.js"
   },
-  "exports": "./index.js",
+  "exports": {
+    "types": "./index.d.ts",
+    "default": "./index.js"
+  },
   "engines": {
     "node": ">=18"
   },
