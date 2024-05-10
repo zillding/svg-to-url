@@ -12,7 +12,7 @@
     "node": ">=18"
   },
   "scripts": {
-    "prettier": "prettier --write '{bin,lib}/**/*.js'",
+    "prettier": "prettier --write .",
     "test": "NODE_OPTIONS=--experimental-vm-modules jest",
     "release": "np"
   },

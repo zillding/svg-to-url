@@ -1,8 +1,7 @@
 # svg-to-url
 
 [![npm](https://img.shields.io/npm/v/svg-to-url.svg)]()
-[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier) 
-
+[![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 A node utility to convert svg to svgo optimized data url
 
