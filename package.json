@@ -5,9 +5,9 @@
   "repository": "zillding/svg-to-url",
   "type": "module",
   "bin": {
-    "svg-to-url": "./bin/index.js"
+    "svg-to-url": "./cli.js"
   },
-  "exports": "./lib/index.js",
+  "exports": "./index.js",
   "engines": {
     "node": ">=18"
   },

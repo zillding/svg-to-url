@@ -4,7 +4,7 @@ import { Command } from "commander";
 import chalk from "chalk";
 import clipboardy from "clipboardy";
 
-import svgToUrl from "../lib/index.js";
+import svgToUrl from "./index.js";
 
 const program = new Command();
 program
